@@ -30,7 +30,7 @@ const getJoke = (searchTerm) => {
           console.log('Joke saved to jokes.txt for future laughs!');
         });
       } else {
-        console.log('The joke gods are taking a day off. No jokes found.');
+        console.log('Oops! Looks like the joke deities are on a coffee break. No jokes found.');
       }
     } else {
       console.error('Error:', error);
